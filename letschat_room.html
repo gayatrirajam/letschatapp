@@ -13,17 +13,17 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="letschat_room.css">
 
 </head>
-<body>
+<body id="body">
 <div class="container">
 <button id="logout" onclick="logout()" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
 	<center>
 		<h1 class="header">	
 			LetsChat	
 			<sup>
-				<img src="m2.png">
+				<img id="logo" src="m2.png">
 			</sup>
 		</h1>
 		<h3 class="color_white" id="username"></h3>
@@ -36,6 +36,6 @@
 	<div id="output"></div>
 	</center>
 </div>
-<script src="kwitter_room.js"></script>
+<script src="letschat_room.js"></script>
 </body>
 </html>
