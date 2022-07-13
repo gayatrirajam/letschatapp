@@ -3,6 +3,11 @@
     color: azure;
     text-align: center;
 }
+#page_body{
+	background: linear-gradient(red 0%, rgb(255, 112, 136),white 100%);
+    color: azure;
+    text-align: center;
+}
 
 html, body
 {

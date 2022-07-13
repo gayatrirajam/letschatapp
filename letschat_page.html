@@ -12,10 +12,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-<link rel="stylesheet" type="text/css" href="letschat_page.css">
+<link rel="stylesheet" type="text/css" href="letschat.css">
 
 </head>
-<body>
+<body id="page_body">
 
 <div class="container">
 	<button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
@@ -23,13 +23,14 @@
 		<h1 class="header">	
 			LetsChat
 			<sup>
-				<img src="m2.png">
+				<img id="img_logo" src="m2.png">
 			</sup>
 		</h1>
 		<div id="output" style="text-align: left;margin-bottom: 70px;"> </div>
 	</center>
 </div>
-
+<br>
+<br>
 <center>
 	<div class="input_div_message_page">
 		<label>Send:</label>
